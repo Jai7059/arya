@@ -1,0 +1,36 @@
+body {
+    font-size: 20px;
+  }
+  .para1 {
+    font-size: 30px;
+  }
+  .red {
+    color: red;
+  }
+  .grn {
+    color: green;
+    text-decoration: underline;
+  }
+  table {
+    padding: 10px;
+    border: none;
+  }
+  #table1 tr:nth-child(even) {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  #table1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 5px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    border: 0;
+    background-color: rgb(225, 225, 225);
+  }
+  #table1 td{
+      padding: 8px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
